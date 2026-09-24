@@ -1,0 +1,93 @@
+Python Operators
+1. What is an operator in Python?
+An operator is a symbol or keyword used to perform an operation on values or variables. Examples include +, -, *, /, ==, and and.
+2. What are the different types of operators in Python?
+The main types are arithmetic, comparison (relational), logical, assignment, membership, identity, and bitwise operators.
+3. What is an arithmetic operator?
+An arithmetic operator performs mathematical calculations such as addition, subtraction, multiplication, division, modulus, and exponentiation.
+4. What is the use of the + operator in Python?
+The + operator is used for addition with numbers and concatenation with strings or other supported sequences. Example: 5 + 3 gives 8, and 'Hello' + ' World' gives 'Hello World'.
+5. What is the difference between / and //?
+/ performs normal division and returns a floating-point result. // performs floor division and returns the quotient rounded down. Example: 10 / 3 = 3.333... and 10 // 3 = 3.
+6. What is the use of the % operator?
+The % operator returns the remainder after division. Example: 10 % 3 gives 1.
+7. What is the difference between * and **?
+* is used for multiplication, while ** is used for exponentiation (power). Example: 2 * 3 = 6 and 2 ** 3 = 8.
+8. What is a comparison operator?
+A comparison operator compares two values and returns True or False. Examples include >, <, >=, <=, ==, and !=.
+9. What is the difference between = and ==?
+= is an assignment operator used to assign a value to a variable. == is a comparison operator used to check whether two values are equal.
+10. What is the use of the != operator?
+The != operator checks whether two values are not equal. It returns True if they are different and False if they are equal.
+
+11. What is a logical operator?
+A logical operator is used to combine or modify Boolean conditions. Python has three logical operators: and, or, and not.
+12. What are and, or, and not operators?
+and returns True when both conditions are True. or returns True when at least one condition is True. not reverses a Boolean result.
+13. What is the output of 10 > 5?
+True
+14. What is the output of 10 == 10?
+True
+15. What is the output of 10 != 5?
+True
+16. What is an assignment operator?
+An assignment operator assigns a value to a variable. The basic assignment operator is =. Compound assignment operators include +=, -=, *=, /=, //=, %=, and **=.
+17. What is the use of +=?
+It adds a value to a variable and assigns the result back to that variable. Example: x += 5 is equivalent to x = x + 5.
+18. What is the use of -=?
+It subtracts a value from a variable and assigns the result back to that variable. Example: x -= 5 is equivalent to x = x - 5.
+19. What are membership operators in Python?
+Membership operators check whether a value exists in a sequence or collection. Python provides in and not in.
+20. What is the difference between in and not in?
+in returns True when a value is present in a collection. not in returns True when the value is not present.
+21. What are identity operators?
+Identity operators check whether two variables refer to the same object in memory. Python provides is and is not.
+
+22. What is the difference between is and ==?
+== checks whether two values are equal. is checks whether two variables refer to the exact same object.
+23. What is the output of 10 % 3?
+1
+24. What is the output of 2 ** 3?
+8
+25. What is the output of 10 // 3?
+3
+Programs
+26. Check whether a number is even or odd using an operator.
+num = int(input("Enter a number: "))
+
+if num % 2 == 0:
+    print("Even")
+else:
+    print("Odd")
+27. Check whether a number is greater than 50.
+num = int(input("Enter a number: "))
+
+if num > 50:
+    print("The number is greater than 50")
+else:
+    print("The number is not greater than 50")
+28. Find the remainder of two numbers.
+a = int(input("Enter the first number: "))
+b = int(input("Enter the second number: "))
+
+remainder = a % b
+print("Remainder:", remainder)
+
+
+
+
+29. Check whether a person is eligible to vote using comparison operators.
+age = int(input("Enter your age: "))
+
+if age >= 18:
+    print("Eligible to vote")
+else:
+    print("Not eligible to vote")
+30. Write a Python program using and and or operators.
+age = int(input("Enter your age: "))
+citizen = input("Are you a citizen? (y/n):")
+
+if age >= 18 and citizen == "y":
+    print("Eligible to vote")
+elif age < 18 or citizen != "n":
+    print("Not eligible to vote")
