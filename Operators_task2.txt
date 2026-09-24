@@ -1,0 +1,59 @@
+1. What are operators?
+
+Operators are special symbols or keywords used to perform operations on values and variables. They help us perform calculations, compare values, assign values, and combine conditions. Examples include +, -, *, /, ==, and, and in.
+
+2. How many types of operators are there in Python?
+
+Python mainly has seven types of operators:
+
+1. Arithmetic operators
+
+2. Comparison operators
+
+3. Logical operators
+
+4. Assignment operators
+
+5. Membership operators
+
+6. Identity operators
+
+7. Bitwise operators
+
+3. Briefly explain the types of operators with examples?
+
+1. Arithmetic Operators – Used for mathematical calculations.
+
+Example: 10 + 5 gives 15, and 10 % 3 gives 1.
+
+2. Comparison Operators – Used to compare two values and return True or False.
+
+Example: 10 > 5 gives True.
+
+3. Logical Operators – Used to combine or reverse conditions.
+
+Example: age >= 18 and citizen == 'yes'.
+
+4. Assignment Operators – Used to assign or update values in variables.
+
+Example: x = 10 and x += 5.
+
+5. Membership Operators – Used to check whether a value exists in a sequence or collection.
+
+Example: 'a' in 'apple' gives True.
+
+6. Identity Operators – Used to check whether two variables refer to the same object.
+
+Example: a is b.
+
+7. Bitwise Operators – Used to perform operations on individual bits of integers.
+
+Example: 5 & 3 gives 1.
+
+4. Why do we need to use operators?
+
+We need operators to perform different operations on data. They allow us to calculate values, compare information, make decisions, assign and update variables, check membership, and perform logical or bit-level operations. Without operators, it would be difficult to build useful programs.
+
+5. What is the purpose of operators?
+
+The main purpose of operators is to tell Python what operation should be performed on one or more values. For example, + performs addition, > compares values, = assigns a value, and and combines conditions. Operators make it possible to perform calculations and implement program logic.
