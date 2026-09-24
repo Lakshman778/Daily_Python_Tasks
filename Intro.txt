@@ -1,0 +1,29 @@
+
+1. What is Python?
+
+Python is a high-level, general-purpose programming language known for its simple and readable syntax. It is widely used for web development, automation, data analysis, artificial intelligence, machine learning, and software development.
+
+2. What are the applications of Python?
+
+Python is used in many areas, including web development, data analysis, artificial intelligence and machine learning, automation and scripting, data science, scientific computing, testing, cybersecurity, desktop applications, and backend development.
+
+3. What is an interpreted language?
+
+An interpreted language is a programming language where the code is executed by an interpreter at runtime rather than being completely compiled into machine code before execution. Python is commonly described as interpreted because Python code is executed by the Python interpreter.
+
+4. Why is Python a dynamically typed programming language?
+
+Python is dynamically typed because we do not have to declare the data type of a variable explicitly. Python determines the type at runtime, and the same variable can refer to values of different types at different times. For example, x = 10 and later x = 'Hello' are valid in Python.
+
+5. Why did you choose Python?
+
+I chose Python because it has simple and readable syntax, which makes it easier to learn and develop applications quickly. It also has a large number of libraries and frameworks. Since Python is widely used in areas like automation, data analysis, AI, and machine learning, it is a useful language for both learning and real-world development.
+
+6. What is the difference between statically and dynamically typed programming languages?
+
+In a statically typed language, the variable's type is generally checked at compile time, and the type usually needs to be declared or inferred before execution. In a dynamically typed language, the type is checked at runtime and can change during execution. For example, Java is statically typed, while Python is dynamically typed.
+
+7. Why is Python more popular?
+
+Python is popular because its syntax is simple and readable, it is beginner-friendly, it has a large ecosystem of libraries and frameworks, and it can be used for many different types of applications. Its strong use in AI, machine learning, data science, automation, and web development has also contributed to its popularity.
+
